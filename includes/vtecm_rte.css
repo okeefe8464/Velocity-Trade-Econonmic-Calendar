@@ -1,0 +1,11 @@
+h1     { font-family:  Arial, Helvetica, sans-serif; font-size: 22px; line-height: 22px; color: #0b2369; font-weight: normal; margin-top: 0px; margin-bottom: 8px; margin-right: 0px; }
+h2     { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #000000; font-weight: bold; margin-top: 5px; margin-bottom: 5px; margin-right: 0px; }
+h3      { font-family:  Arial, Helvetica, sans-serif; font-size: 18px; line-height: 22px; color: #0b2369; font-weight: normal; margin-top: 5px; margin-bottom: 2px; margin-right: 0px; }
+h4      { font-family:  Arial, Helvetica, sans-serif; font-size: 16px; line-height: 21px; color: #000000; font-weight: normal; margin-top: -10px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px; }
+h6      { font-family:  Arial, Helvetica, sans-serif; font-size: 9px; line-height: 12px; color: #000000; font-weight: normal; margin-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px; }
+p      { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; color: #000000; font-weight: normal; margin-top: 0px; margin-bottom: 9px; margin-left: 0px; margin-right: 0px; }
+ul     { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #000000; font-weight: normal; list-style-type: square;}
+ol     { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #000000; font-weight: normal; } 
+li     { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #000000; font-weight: normal; } 
+a         { text-decoration: none; font-style: normal; font-weight: bold; background-color: transparent; color: #0000EE; }
+
