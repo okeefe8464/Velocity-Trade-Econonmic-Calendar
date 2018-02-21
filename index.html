@@ -1,235 +1,105 @@
 
-
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#" id="economic_calendar">
-	<head>
-		<meta charset="UTF-8" />
+<head>
+	<meta charset="UTF-8" />
+	<title>Velocity Trade Economic Calendar</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="xmlrpc.php" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/favicon.png"/>
+	<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- Admin only notice: this page doesn't show a meta description because it doesn't have one, either write it for this page specifically or go into the SEO -> Titles menu and set up a template. -->
+	<meta name="robots" content="noindex,follow"/>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Velocity Trade Economic Calendar" />
+	<meta property="og:site_name" content="Velocity Trade Economic Calendar" />
+	<link rel='stylesheet' id='default_style-css'  href='includes/themes/bridge/style.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='qode-font-awesome-css'  href='includes/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='qode-elegant-icons-css'  href='includes/themes/bridge/css/elegant-icons/style.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='stylesheet-css'  href='includes/themes/bridge/css/stylesheet.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='webkit-css'  href='includes/themes/bridge/css/webkit_stylesheet.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='style_dynamic-css'  href='includes/themes/bridge/css/style_dynamic.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='responsive-css'  href='includes/themes/bridge/css/responsive.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='style_dynamic_responsive-css'  href='includes/themes/bridge/css/style_dynamic_responsive.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='custom_css-css'  href='includes/themes/bridge/css/custom_css.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='childstyle-css'  href='includes/themes/bridge-child/style.css?ver=4.3.1' type='text/css' media='all' />
+	<script type="text/javascript" src="app_includes_prod/jquery-1.10.2.min.js"></script>
+	<script src="includes/timelinemax/TweenMax.min.js"></script>
+	<script type="text/javascript" src="includes/vtecm.js"></script>
+	<script type="text/javascript" src="app_includes_prod/app_standard.js"></script>
+	<link rel='stylesheet' href='includes/vtecm.css' type='text/css' media='all' />
+	<script type="text/javascript" src="includes/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="includes/ckeditor/adapters/jquery.js"></script>
+	<script type="text/javascript" src="includes/stylesheetparser/plugin.js"></script>
+	<script>
+	function toggle_menu ( sub_menu ) {
+		jQuery( '#sub_' + sub_menu ).toggle();
+	}
+	</script>
+</head>
 
-		<title>Velocity Trade ECM</title>
-
-
-
-		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="pingback" href="xmlrpc.php" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-		<link rel="apple-touch-icon" href="images/favicon.png"/>
-
-
-		<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
-		<!-- Admin only notice: this page doesn't show a meta description because it doesn't have one, either write it for this page specifically or go into the SEO -> Titles menu and set up a template. -->
-		<meta name="robots" content="noindex,follow"/>
-		<link rel="canonical" href="style-example-page/" />
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="article" />
-		<meta property="og:title" content="Style Example Page - Velocity Trade ECM" />
-		<meta property="og:description" content="Duis luctus felis in ex ornare, faucibus fringilla orci placerat. Ut maximus in metus vel malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta neque at pellentesque efficitur. Etiam at venenatis mi. Duis malesuada mauris id rutrum eleifend. Suspendisse fringilla bibendum nulla et..." />
-		<meta property="og:url" content="/style-example-page/" />
-		<meta property="og:site_name" content="Velocity Trade ECM" />
-		<meta name="twitter:card" content="summary"/>
-		<meta name="twitter:description" content="Duis luctus felis in ex ornare, faucibus fringilla orci placerat. Ut maximus in metus vel malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta neque at pellentesque efficitur. Etiam at venenatis mi. Duis malesuada mauris id rutrum eleifend. Suspendisse fringilla bibendum nulla et..."/>
-		<meta name="twitter:title" content="Style Example Page - Velocity Trade ECM"/>
-		<!-- / Yoast SEO plugin. -->
-
-		<link rel="alternate" type="application/rss+xml" title="Velocity Trade ECM &raquo; Feed" href="feed/" />
-		<link rel="alternate" type="application/rss+xml" title="Velocity Trade ECM &raquo; Comments Feed" href="comments/feed/" />
-		<link rel='stylesheet' id='default_style-css'  href='includes/themes/bridge/style.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='qode-font-awesome-css'  href='includes/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='qode-elegant-icons-css'  href='includes/themes/bridge/css/elegant-icons/style.min.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='stylesheet-css'  href='includes/themes/bridge/css/stylesheet.min.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='webkit-css'  href='includes/themes/bridge/css/webkit_stylesheet.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='style_dynamic-css'  href='includes/themes/bridge/css/style_dynamic.css?ver=1453741092' type='text/css' media='all' />
-		<link rel='stylesheet' id='responsive-css'  href='includes/themes/bridge/css/responsive.min.css?ver=4.3.1' type='text/css' media='all' />
-		<link rel='stylesheet' id='style_dynamic_responsive-css'  href='includes/themes/bridge/css/style_dynamic_responsive.css?ver=1453741092' type='text/css' media='all' />
-		<link rel='stylesheet' id='custom_css-css'  href='includes/themes/bridge/css/custom_css.css?ver=1453741092' type='text/css' media='all' />
-		<link rel='stylesheet' id='childstyle-css'  href='includes/themes/bridge-child/style.css?ver=4.3.1' type='text/css' media='all' />
-
-		<script type="text/javascript" src="app_includes_prod/jquery-1.10.2.min.js"></script>
-		<script src="includes/timelinemax/TweenMax.min.js"></script>
-<!--
-		<script type="text/javascript" src="includes/expandselect/ExpandSelect.js"></script>
-		<script type="text/javascript" src="includes/jquery-ui/jquery-ui.min.js"></script>
-		<link rel="stylesheet" href="includes/jquery-ui/jquery-ui.min.css">
--->
-		<!--<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> -->
-		<meta name="generator" content="WordPress 4.3.1" />
-		<link rel='shortlink' href='?p=17441' />
-		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-		<!--[if IE 8]><link rel="stylesheet" type="text/css" href="wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-
-		<script type="text/javascript" src="includes/vtecm.js"></script>
-		<script type="text/javascript" src="app_includes_prod/app_standard.js"></script>
-		<link rel='stylesheet' href='includes/vtecm.css' type='text/css' media='all' />
-
-		<script type="text/javascript" src="includes/ckeditor/ckeditor.js"></script>
-		<script type="text/javascript" src="includes/ckeditor/adapters/jquery.js"></script>
-		<script type="text/javascript" src="includes/stylesheetparser/plugin.js"></script>
-
-<script>
-
-function toggle_menu ( sub_menu ) {
-	jQuery( '#sub_' + sub_menu ).toggle();
-}
-
-</script>
-
-
-	</head>
-
-	<body class="page page-id-17441 page-template-default logged-in  qode-title-hidden side_menu_slide_from_right qode-child-theme-ver-1.0.0 qode-theme-ver-7.5 wpb-js-composer js-comp-ver-4.5.3 vc_responsive">
-
-		<div class="ajax_loader"><div class="ajax_loader_1"><div class="stripes"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div></div>
-		<section id="side_menu_dashboard" class="side_menu right light side_area_alignment_left" tabindex="5000" style="overflow-y: hidden; outline: none;    overflow-y: auto;">
-
-
-			<a href="#"  onclick="jQuery('#side_menu_dashboard').css('visibility', 'hidden');jQuery('#side_menu_dashboard').css('right','-30%');return false;" target="_self" class="close_side_menu"></a>
-			<div id="nav_menu-5" class="widget widget_nav_menu posts_holder">
-				<div class="menu-fullscreen_menu-container">
-					<div class="userinfo_block"> LOGGED IN:<br><span class="username_block">&nbsp;</span></div>
-					<ul id="menu-fullscreen_menu" class="menu">
-
-						<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-							<a href="">Login Page</a>
-						</li>
-
-
-
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section id="side_menu" class="side_menu right light side_area_alignment_left" tabindex="5000" style="overflow-y: hidden; outline: none;    overflow-y: auto;">
-
-
-			<a href="#"  onclick="jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%');return false;" target="_self" class="close_side_menu"></a>
-			<div id="nav_menu-5" class="widget widget_nav_menu posts_holder">
-				<div class="menu-fullscreen_menu-container">
-
-					<ul id="menu-fullscreen_menu" class="menu">
-
-							<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-								<a href="user.pl?rm=show_ec_welcome">Global Offices</a>
-							</li>
-							<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-								<a href="user.pl?rm=show_ec_economic_calendar">Economic Calendar</a>
-							</li>
-							<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-								<a href="user.pl?rm=show_ec_market_prices">Market Prices</a>
-							</li>
-							<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-								<a href="user.pl?rm=show_ec_commentary_list">Commentary</a>
-							</li>
-							<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-								<a href="user.pl?rm=show_ec_market_closures">Market Closure</a>
-							</li>
-
-
-
-
-
-					</ul>
-				</div>
-			</div>
-		</section>
-		<div class="wrapper">
-			<div class="cover"></div>
-			<div class="wrapper_inner">
-
-				<header class=" scroll_header_top_area light fixed scrolled_not_transparent page_header">
+<body class="page page-id-17441 page-template-default logged-in  qode-title-hidden side_menu_slide_from_right qode-child-theme-ver-1.0.0 qode-theme-ver-7.5 wpb-js-composer js-comp-ver-4.5.3 vc_responsive">
+<div class="ajax_loader"><div class="ajax_loader_1"><div class="stripes"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div></div>
+<section id="side_menu" class="side_menu right light side_area_alignment_left" tabindex="5000" style="overflow-y: hidden; outline: none;    overflow-y: auto;">
+	<a href="#"  onclick="jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%');return false;" target="_self" class="close_side_menu"></a>
+	<div id="nav_menu-5" class="widget widget_nav_menu posts_holder">
+		<div class="menu-fullscreen_menu-container">
+			<ul id="menu-fullscreen_menu" class="menu">
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="user.pl?rm=show_ec_welcome">Global Offices</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="user.pl?rm=show_ec_economic_calendar">Economic Calendar</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="user.pl?rm=show_ec_market_prices">Market Prices</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="user.pl?rm=show_ec_commentary_list">Commentary</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="user.pl?rm=show_ec_market_closures">Market Closure</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<div class="wrapper">
+	<div class="cover"></div>
+		<div class="wrapper_inner">
+			<header class=" scroll_header_top_area light fixed scrolled_not_transparent page_header">
 				<div class="header_inner clearfix">
-
 					<div class="header_top_bottom_holder">
 						<div class="header_bottom clearfix" style=' background-color:rgba(1, 35, 105, 1);' >
 							<div class="container">
 								<div class="container_inner clearfix">
-									<div class="header_inner_left">
-										<div class="mobile_menu_button">
-											<span>
-												<i class="qode_icon_font_awesome fa fa-bars " ></i>                                </span>
-										</div>
-										<div class="logo_wrapper">
-											<div class="q_logo 34">
-												<a href="">
-													<img class="normal" src="images/logo.png" alt="Logo"/>
-													<img class="light" src="images/logo.png" alt="Logo"/>
-													<img class="dark" src="images/logo_black.png" alt="Logo"/>
-													<img class="sticky" src="images/logo_black.png" alt="Logo"/>
-													<img class="mobile" src="images/logo.png" alt="Logo"/>
-												</a>
-											</div>
-										</div>
-									</div>
-
-
 									<div class="desktop_logo"><a href=""><img src="images/logo.png" border="0"></a></div>
-
 									<div class="header_inner_right">
-										<h1 class="page_title">
-											<span class="part_1"  style="text-transform:uppercase;color: #d6e259;">Email Campaign Manager</span>
-										</h1>
 										<div class="side_menu_button_wrapper right" style="float: right;margin-left: 20px;">
-											<div class="header_bottom_right_widget_holder">
-												<div class="header_bottom_widget widget_nav_menu">
-													<div class="menu-fullscreen_menu-container">
-														<ul id="menu-fullscreen_menu-1" class="menu">
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172"><a href="">Home</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18261"><a href="about-us/">About Us</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18320"><a href="contact-us-2/">Contacts</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18407"><a href="newsletters/">Newsletters</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18408"><a href="reporting/">Reporting</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18409"><a href="support/">Support</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-17441 current_page_item menu-item-18424"><a href="style-example-page/">Style Example Page</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18457"><a href="adviser-steps/">Advisor Welcome</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18537"><a href="admin-content-search/">Admin Content Search</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18536"><a href="admin-content-edit/">Admin Content Edit</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18544"><a href="advisor-content-search/">Advisor Content Search</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18543"><a href="advisor-content-edit/">Advisor Content Edit</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18550"><a href="commentary-content-search/">Commentary Content Search</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18551"><a href="commentary-content-edit/">Commentary Content Edit</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
 											<div class="side_menu_button">
-												<!--<a href="#" style="display: inline-block;    vertical-align: middle;    height: 47px;    width: 48px;    margin-right: 10px;" onclick="jQuery('#side_menu_dashboard').css('visibility', 'visible');jQuery('#side_menu_dashboard').css('right', 0);return false;"><img src="images/icon-header-dashboard.png" border="0" style="display: inline-block;height: 47px;width: 48px;"></a>-->
 												<a class="side_menu_button_link medium" href="#" onclick="jQuery('#side_menu').css('visibility', 'visible');jQuery('#side_menu').css('right', 0);return false;" > <i class="qode_icon_font_awesome fa fa-bars " ></i></a>
 											</div>
 										</div>
 									</div>
-
-
-									<nav class="main_menu drop_down right" >
-									</nav>
-						                        										<nav class="mobile_menu">
-										</nav>
-
-
-									</div>
-
-
 								</div>
-
 							</div>
 						</div>
 					</div>
-
-					</header>
-
-
-					<a id='back_to_top' href='#'>
-						<span class="fa-stack">
-							<i class="fa fa-arrow-up" style=""></i>
-						</span>
-					</a>
-					<div id="content_mobile">
-
-					</div>
-
-					<script>
-						$( "#content_mobile" ).load( "https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices_single&global_office_id=2&mobile=1" );
-					</script>
 				</div>
-			</div>
-		</body>
-	</html>
+			</header>
+			<a id='back_to_top' href='#'>
+				<span class="fa-stack">
+					<i class="fa fa-arrow-up" style=""></i>
+				</span>
+			</a>
+			<div id="content_mobile"></div>
+			<script>
+				$( "#content_mobile" ).load( "https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices_single&global_office_id=2&mobile=1" );
+			</script>
+		</div>
+	</div>
+</body>
+</html>
