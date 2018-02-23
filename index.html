@@ -49,7 +49,7 @@
 		<div class="menu-fullscreen_menu-container">
 			<ul id="menu-fullscreen_menu" class="menu">
 				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
-					<a href="user.pl?rm=show_ec_welcome">Global Offices</a>
+					<a href="#" onclick="load_content('https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices&mobile=1'); return false;">Global Offices</a>
 				</li>
 				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
 					<a href="user.pl?rm=show_ec_economic_calendar">Economic Calendar</a>
@@ -76,7 +76,7 @@
 						<div class="header_bottom clearfix" style=' background-color:rgba(1, 35, 105, 1);' >
 							<div class="container">
 								<div class="container_inner clearfix">
-									<div class="desktop_logo"><a href=""><img src="images/logo.png" border="0"></a></div>
+									<div class="desktop_logo"><a href="#" onclick="load_content('https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices&mobile=1'); return false"><img src="images/logo.png" border="0"></a></div>
 									<div class="header_inner_right">
 										<div class="side_menu_button_wrapper right" style="float: right;margin-left: 20px;">
 											<div class="side_menu_button">
@@ -95,9 +95,21 @@
 					<i class="fa fa-arrow-up" style=""></i>
 				</span>
 			</a>
+			<div id="content_loading"><img src="images/loading_wheel.gif"></div>
 			<div id="content_mobile"></div>
 			<script>
-				$( "#content_mobile" ).load( "https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices_single&global_office_id=2&mobile=1" );
+
+				function load_content (url) {
+					$( "#content_loading" ).show();
+					$( "#content_mobile" ).hide();
+					$( "#content_mobile" ).load( url, function() {
+						$( "#content_loading" ).hide();
+						$( "#content_mobile" ).show();
+					});
+				}
+
+				load_content('https://case5385.spiserver.com/user.pl?rm=show_ec_global_offices&mobile=1');
+
 			</script>
 		</div>
 	</div>

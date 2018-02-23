@@ -4438,3 +4438,9 @@ color: #00ace7;
     max-height: 12px;
   }
 }
+
+
+#content_loading img {
+  display: block;
+  margin: 150px auto 0 auto;
+}
