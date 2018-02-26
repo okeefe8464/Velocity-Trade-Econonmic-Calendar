@@ -4011,7 +4011,7 @@ border: 0;
 padding: 0;
 line-height: 0;
 font-size: 0;
-vertical-align: unset;
+vertical-align: top;
 text-align: left;
 }
 #app_banner table td img {
