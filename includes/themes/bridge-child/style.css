@@ -4443,4 +4443,5 @@ color: #00ace7;
 #content_loading img {
   display: block;
   margin: 100px auto 0 auto;
+  max-width: 20%;
 }
