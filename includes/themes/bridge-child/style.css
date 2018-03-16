@@ -4288,6 +4288,7 @@ color: #3b3b3b !important;
   bottom: 0;
   left: 0;
   z-index: 10000;
+  text-align:center;
 }
 #app_footer .footer_section {
   width: 19%;
