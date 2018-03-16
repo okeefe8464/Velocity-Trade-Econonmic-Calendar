@@ -4111,6 +4111,21 @@ line-height: 14px;
 margin: 0 0 0px 0;
 text-transform: uppercase;
 }
+#data_table td p.data_description {
+  font-size: 19px;
+  line-height: 23px;
+  color: #ffffff;
+}
+#data_table td p.data_open_close {
+    margin-bottom: 0;
+    font-size: 46px;
+    line-height: 32px;
+    color: #fff;
+}
+#data_table td.data_description_row table td {
+    padding: 0;
+    border-bottom: 0;
+}
 #data_table tr.row_content td {
   padding: 37px 25px 45px 25px;
 }
@@ -4390,6 +4405,17 @@ color: #00ace7;
   #data_table td p.data_lable {
   font-size: 8px;
   line-height: 8px;
+  }
+  #data_table td p.data_description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  }
+  #data_table td p.data_open_close {
+      margin-bottom: 0;
+      font-size: 24px;
+      line-height: 24px;
+      color: #fff;
   }
   #location_table tr.row_content h2 {
     font-size: 30px;
