@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.vteconomiccalendar" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.vteconomiccalendar" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Velocity Trade Economic Calendar</name>
     <description>
         Velocity Trade Capital Economic Calendar
@@ -40,9 +40,12 @@
     </platform>
 -->
     <platform name="ios">
+        <icon height="1024" platform="ios" src="images/favicon-1024.png" width="1024" />
         <icon height="120" platform="ios" src="images/favicon-120.png" width="120" />
         <icon height="152" platform="ios" src="images/favicon-152.png" width="152" />
+        <icon height="72" platform="ios" src="images/favicon-72.png" width="76" />
         <icon height="76" platform="ios" src="images/favicon-76.png" width="76" />
+        <icon height="40" platform="ios" src="images/favicon-40.png" width="40" />
     </platform>
 <!--
     <platform name="wp8">
