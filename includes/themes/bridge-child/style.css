@@ -4079,8 +4079,11 @@ display: inline-block;
   font-family: FUTURA_1, Helvetica, sans-serif;
   text-transform: uppercase;
   display: inline-block;
-  margin: 0 75px 0 0;
+  margin: 0 50px 0 0;
   vertical-align: top;
+}
+#data_table th p:last-child {
+  margin-right: 0px;
 }
 #data_table th p select {
   vertical-align: top;
@@ -4303,7 +4306,7 @@ color: #3b3b3b !important;
   bottom: 0;
   left: 0;
   z-index: 10000;
-  text-align:center;
+  text-align: center;
 }
 #app_footer .footer_section {
   width: 19%;
@@ -4381,8 +4384,11 @@ color: #00ace7;
   }
   #data_table th p {
     line-height: 28px;
-    font-size: 25px;
+    font-size: 22px;
     margin: 0 15px 0 0;
+  }
+  #data_table th p:last-child {
+    margin-right: 0px;
   }
   #data_table th p select {
     padding: 4px 0 3px 0;
@@ -4449,7 +4455,7 @@ color: #00ace7;
   }
   #app_footer .footer_section p {
     margin: 0px auto 3px auto;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 10px;
   }
   #app_footer .footer_section img {
