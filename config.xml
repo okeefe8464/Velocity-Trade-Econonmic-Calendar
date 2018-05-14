@@ -15,15 +15,8 @@
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <plugin name="cordova-plugin-FCM" source="npm" spec="~1.2.1" />
     <icon src="images/favicon.png" />
     <gap:splash src="images/favicon.png" />
-    <platform name="android">
-	<resource-file src="google-services.json" target="google-services.json" />
-    </platform>
-    <platform name="ios">
-	<resource-file src="GoogleService-Info.plist" />
-    </platform>
 <!--
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
