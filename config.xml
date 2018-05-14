@@ -15,6 +15,7 @@
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-FCM" source="npm" spec="~1.2.1" />
     <icon src="images/favicon.png" />
     <gap:splash src="images/favicon.png" />
     <platform name="android">
