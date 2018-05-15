@@ -147,13 +147,14 @@
 				// current GPS coordinates
 				//
 				var onSuccess = function(position) {
+/*	
 					alert('Latitude: '          + position.coords.latitude          + '\n' +
 						  'Longitude: '         + position.coords.longitude);
-/*	
+
 					var googleData = $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=55.704093,13.193582&sensor=false");
 					alert(googleData);
 */
-					$.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function( data ) {
+					$.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=55.704093,13.193582&sensor=false", function( data ) {
 					  alert(data.results[0].address_components[5].long_name);
 					});
 				};
