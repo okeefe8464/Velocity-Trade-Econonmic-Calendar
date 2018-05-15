@@ -155,10 +155,15 @@
 						  'Heading: '           + position.coords.heading           + '\n' +
 						  'Speed: '             + position.coords.speed             + '\n' +
 						  'Timestamp: '         + position.timestamp                + '\n');
-					var countryName = get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", latitude, longitude).jsonPath().getString("results.address_components.flatten().find { it.types.flatten().contains('country') }?.long_name");
+/*						  
+					var googleData = get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", latitude, longitude);
+					.jsonPath().getString("results.address_components.flatten().find { it.types.flatten().contains('country') }?.long_name");
 					alert('Latitude: '          + position.coords.latitude          + '\n' +
 						  'Longitude: '         + position.coords.longitude         + '\n' +
 						   countryName);					
+*/
+					var googleData = get("https://maps.googleapis.com/maps/api/geocode/json?latlng=55.704093,13.193582&sensor=false");
+					alert(googleData);
 				};
 			 
 				// onError Callback receives a PositionError object
