@@ -155,6 +155,8 @@
 						  'Heading: '           + position.coords.heading           + '\n' +
 						  'Speed: '             + position.coords.speed             + '\n' +
 						  'Timestamp: '         + position.timestamp                + '\n');
+					String countryName = get("http://ws.geonames.org/findNearbyPlaceName?lat=" + position.coords.latitude + "&lng=" + position.coords.longitude, latitude, longitude).xmlPath().getString("geonames.geoname.countryName");
+					alert(countryName);
 				};
 			 
 				// onError Callback receives a PositionError object
