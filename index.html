@@ -147,7 +147,6 @@
 				// current GPS coordinates
 				//
 				var onSuccess = function(position) {
-/*
 					alert('Latitude: '          + position.coords.latitude          + '\n' +
 						  'Longitude: '         + position.coords.longitude         + '\n' +
 						  'Altitude: '          + position.coords.altitude          + '\n' +
@@ -156,9 +155,10 @@
 						  'Heading: '           + position.coords.heading           + '\n' +
 						  'Speed: '             + position.coords.speed             + '\n' +
 						  'Timestamp: '         + position.timestamp                + '\n');
-*/
 					var countryName = get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", latitude, longitude).jsonPath().getString("results.address_components.flatten().find { it.types.flatten().contains('country') }?.long_name");
-					alert(countryName);					
+					alert('Latitude: '          + position.coords.latitude          + '\n' +
+						  'Longitude: '         + position.coords.longitude         + '\n' +
+						   countryName);					
 				};
 			 
 				// onError Callback receives a PositionError object
