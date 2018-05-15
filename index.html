@@ -157,7 +157,7 @@
 						  'Speed: '             + position.coords.speed             + '\n' +
 						  'Timestamp: '         + position.timestamp                + '\n');
 */
-					String countryName = get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", latitude, longitude).jsonPath().getString("results.address_components.flatten().find { it.types.flatten().contains('country') }?.long_name");
+					var countryName = get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", latitude, longitude).jsonPath().getString("results.address_components.flatten().find { it.types.flatten().contains('country') }?.long_name");
 					alert(countryName);					
 				};
 			 
