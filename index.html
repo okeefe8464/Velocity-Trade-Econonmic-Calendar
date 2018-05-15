@@ -142,30 +142,23 @@
 				
 				
 				// CODE FOR TESTING GEO LOCATION
-				// onSuccess Callback
-				// This method accepts a Position object, which contains the
-				// current GPS coordinates
-				//
+				
+				// onSuccess Callback - This method accepts a Position object, which contains the current GPS coordinates
 				var onSuccess = function(position) {
 /*	
 					alert('Latitude: '          + position.coords.latitude          + '\n' +
 						  'Longitude: '         + position.coords.longitude);
-
-					var googleData = $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=55.704093,13.193582&sensor=false");
-					alert(googleData);
 */
-					$.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=55.704093,13.193582&sensor=false", function( data ) {
+					$.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function( data ) {
 					  alert(data.results[0].address_components[5].long_name);
 					});
 				};
-			 
 				// onError Callback receives a PositionError object
-				//
 				function onError(error) {
 					alert('code: '    + error.code    + '\n' +
 						  'message: ' + error.message + '\n');
 				}
-			 
+				// gets the current position data from the phone
 				navigator.geolocation.getCurrentPosition(onSuccess, onError);
 			</script>
 		</div>
