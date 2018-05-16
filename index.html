@@ -35,6 +35,7 @@
 	<script type="text/javascript" src="includes/ckeditor/ckeditor.js"></script>
 	<script type="text/javascript" src="includes/ckeditor/adapters/jquery.js"></script>
 	<script type="text/javascript" src="includes/stylesheetparser/plugin.js"></script>
+	<script type="text/javascript" src="includes/jstimezonedetect/dist/jstz.min.js"></script>
 	<script>
 	function toggle_menu ( sub_menu ) {
 		jQuery( '#sub_' + sub_menu ).toggle();
@@ -138,28 +139,24 @@
 						$( "#content_mobile" ).show();
 					});
 				}
-				load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_global_offices&mobile=1');
+				load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_global_offices&mobile=1');				
 				
-				
-				// CODE FOR TESTING GEO LOCATION
-				
-				// onSuccess Callback - This method accepts a Position object, which contains the current GPS coordinates
-				var onSuccess = function(position) {
-/*	
-					alert('Latitude: '          + position.coords.latitude          + '\n' +
-						  'Longitude: '         + position.coords.longitude);
-*/
+				/* CODE FOR TESTING GEO LOCATION
+				var onGeoSuccess = function(position) {
 					$.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function( data ) {
 					  alert(data.results[0].address_components[5].long_name);
 					});
 				};
-				// onError Callback receives a PositionError object
-				function onError(error) {
+				function onGeoError(error) {
 					alert('code: '    + error.code    + '\n' +
 						  'message: ' + error.message + '\n');
 				}
-				// gets the current position data from the phone
-				navigator.geolocation.getCurrentPosition(onSuccess, onError);
+				navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+				*/
+				
+				var tz = jstz.determine();
+				var tz_name = tz.name();
+				alert(tz_name);
 			</script>
 		</div>
 	</div>
