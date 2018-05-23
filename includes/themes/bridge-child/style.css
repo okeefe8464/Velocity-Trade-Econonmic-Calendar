@@ -4066,7 +4066,7 @@ margin: 0;
   padding:0 25px;
 }
 #data_table th img {
-margin: 0 13px 0 0;
+margin: 0 7px 0 0;
 display: inline-block;
 }
 #data_table th img:last-child {
@@ -4132,13 +4132,38 @@ text-transform: uppercase;
 #data_table tr.row_content td {
   padding: 37px 25px 45px 25px;
 }
+#data_table tr.row_content h1 {
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:#ffffff;
+  position: relative;
+}
 #data_table tr.row_content h2, #data_table tr.row_content h2 a {
   font-size: 26px;
   line-height: 32px;
   margin-bottom: 20px;
+  color:#ffffff;
 }
 #data_table tr.row_content h2 a {
   color:#ccdc5b;
+}
+#data_table tr.row_content h3 {
+  color:#ffffff;
+  font-size: 21px;
+  line-height: 27px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#data_table tr.row_content h6 {
+color:#ffffff;
+font-size: 15px;
+line-height: 21px;
+margin-bottom: 20px;
+font-weight: normal;
 }
 #data_table tr.row_content p {
 color:#ffffff;
@@ -4154,7 +4179,7 @@ margin-bottom: 30px;
 }
 #data_table tr.row_content ul {
   margin-bottom: 40px;
-  margin-left: 48px;
+  margin-left: 0px;
 }
 #data_table tr.row_content ul li {
   color:#ffffff;
@@ -4282,7 +4307,7 @@ float: left;
 margin-left: -50px;
 }
 .highlighted {
-color:#ccdc5b;
+color:#ccdc5b !important;
 font-weight: bold;
 }
 .hours {
@@ -4392,17 +4417,39 @@ color: #00ace7;
   }
   #data_table th p select {
     padding: 4px 0 3px 0;
-    width: 75px;
+    width: 120px;
+    margin-right: 0;
+  }
+  #data_table tr.row_content h1 {
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 10px;
   }
   #data_table tr.row_content h2, #data_table tr.row_content h2 a {
     font-size: 21px;
     line-height: 27px;
     margin-bottom: 10px;
   }
+  #data_table tr.row_content h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  #data_table tr.row_content h6 {
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 15px;
+  }
   #data_table tr.row_content p {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 15px;
+  }
+  #data_table tr.row_content ul li {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
   }
   #data_table td p.data_value {
   font-size: 12px;
@@ -4413,9 +4460,9 @@ color: #00ace7;
   line-height: 8px;
   }
   #data_table td p.data_description {
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
   }
   #data_table td p.data_open_close {
       margin-bottom: 0;
