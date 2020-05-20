@@ -61,13 +61,9 @@ Template: bridge
 
 }
 
-@font-face {    font-family: 'TrasandinaLight';    src: url('fonts/TrasandinaLight.eot');    src: url('fonts/TrasandinaLight.eot?#iefix') format('embedded-opentype'),        url('fonts/TrasandinaLight.woff2') format('woff2'),        url('fonts/TrasandinaLight.woff') format('woff'),        url('fonts/TrasandinaLight.ttf') format('truetype');    font-weight: normal;    font-style: normal;}
-  @font-face {    font-family: 'TrasandinaRegular';    src: url('fonts/TrasandinaRegular.eot');    src: url('fonts/TrasandinaRegular.eot?#iefix') format('embedded-opentype'),        url('fonts/TrasandinaRegular.woff2') format('woff2'),        url('fonts/TrasandinaRegular.woff') format('woff'),        url('fonts/TrasandinaRegular.ttf') format('truetype');    font-weight: normal;    font-style: normal;}
-  @font-face {    font-family: 'TrasandinaBold';    src: url('fonts/TrasandinaBold.eot');    src: url('fonts/TrasandinaBold.eot?#iefix') format('embedded-opentype'),        url('fonts/TrasandinaBold.woff2') format('woff2'),        url('fonts/TrasandinaBold.woff') format('woff'),        url('fonts/TrasandinaBold.ttf') format('truetype');    font-weight: normal;    font-style: normal;}
-  @font-face {font-family: 'Plantin Std';src: url('fonts/PlantinStd-Light.eot');src: url('fonts/PlantinStd-Light.eot?#iefix') format('embedded-opentype'),url('fonts/PlantinStd-Light.woff2') format('woff2'),url('fonts/PlantinStd-Light.woff') format('woff'),url('fonts/PlantinStd-Light.ttf') format('truetype');font-weight: normal;font-style: normal;}
 
 header {
-    border-top: 6px solid #00aeef;
+border-bottom: 1px solid #ffffff;
 }
 
 .header_bottom .container_inner {
@@ -345,7 +341,7 @@ font-size: 48px;
 line-height: 52px;
 color: #000;
 text-transform: capitalize;
-   font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 margin-bottom: 8px;
 }
@@ -372,7 +368,7 @@ position: fixed !important;
 }
 
 header.fixed .header_bottom {
-    background-color: #020f50 !important;
+    background-color: #000 !important;
 padding: 0px 30px 0px 30px;
 }
 
@@ -397,7 +393,7 @@ padding: 0px 30px 0px 30px;
 }
 
 body {
-   font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 letter-spacing: normal !important;
 background-color: #353535 !important;
 }
@@ -628,7 +624,7 @@ input.wpcf7-form-control.wpcf7-submit {
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 0 30px;
 vertical-align:middle;
     height: 45px;
@@ -984,7 +980,7 @@ max-width: 110px;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 14px 43px;
     vertical-align: middle;
     height: 45px;
@@ -1655,7 +1651,7 @@ margin-right: 100px !important;
 
 
 .deposit_table p {
-font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 17px;
 line-height: 20px;
 font-weight: normal !important;
@@ -1698,7 +1694,7 @@ width: 200px;
 .deposit_table select {
 	height: 35px;
     padding: 0;
-	font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 margin: 10px 0;
 }
@@ -1711,7 +1707,7 @@ margin: 10px 0;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 14px 43px;
     vertical-align: middle;
 	white-space: normal;
@@ -2039,7 +2035,7 @@ vertical-align: top;
 text-align: left;
 border: 1px solid #959595;
 padding: 40px 30px;
-   font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .advisor_content .recipients_arrows {
 display: inline-block;
@@ -2090,7 +2086,7 @@ vertical-align: top;
 text-align: left;
 border: 1px solid #959595;
 padding: 40px 10%;
-   font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
 }
 
@@ -2966,10 +2962,10 @@ display: block;
 
 
 /* ====================== IMPORTED FORM STYLES ========================== */
-.form_button {border-left-width: 1px;border-right-width: 1px;border-top-width: 1px;border-bottom-width: 1px;border-style: solid;border-left-color: #f3f3f3;border-top-color: #f3f3f3;border-right-color: #000000;border-bottom-color: #000000;background-color: #f3f3f3;background-image: url('../images/button_bg.gif');background-repeat: no-repeat;background-position: left center;font-family: 'TrasandinaRegular', Helvetica, sans-serif;font-size: 14px;text-transform: uppercase;font-weight: bold;width: 159px;height: 23px;margin-top: 10px;margin-bottom: 2px;margin-left: 0px;margin-right: 0px;}
-.form_button{border-left-width: 1px;border-right-width: 1px;border-top-width: 1px;border-bottom-width: 1px;border-style: solid;border-left-color: #f3f3f3;border-top-color: #f3f3f3;border-right-color: #000000;border-bottom-color: #000000;background-color: #f3f3f3;background-image: url('../images/button_bg.gif');background-repeat: no-repeat;background-position: left center;font-family: 'TrasandinaRegular', Helvetica, sans-serif;font-size: 14px;text-transform: uppercase;font-weight: bold;width: 159px;height: 23px;margin-top: 10px;margin-bottom: 2px;margin-left: 0px;margin-right: 0px;}
+.form_button {border-left-width: 1px;border-right-width: 1px;border-top-width: 1px;border-bottom-width: 1px;border-style: solid;border-left-color: #f3f3f3;border-top-color: #f3f3f3;border-right-color: #000000;border-bottom-color: #000000;background-color: #f3f3f3;background-image: url('../images/button_bg.gif');background-repeat: no-repeat;background-position: left center;font-family: Arial, Helvetica, sans-serif;font-size: 14px;text-transform: uppercase;font-weight: bold;width: 159px;height: 23px;margin-top: 10px;margin-bottom: 2px;margin-left: 0px;margin-right: 0px;}
+.form_button{border-left-width: 1px;border-right-width: 1px;border-top-width: 1px;border-bottom-width: 1px;border-style: solid;border-left-color: #f3f3f3;border-top-color: #f3f3f3;border-right-color: #000000;border-bottom-color: #000000;background-color: #f3f3f3;background-image: url('../images/button_bg.gif');background-repeat: no-repeat;background-position: left center;font-family: Arial, Helvetica, sans-serif;font-size: 14px;text-transform: uppercase;font-weight: bold;width: 159px;height: 23px;margin-top: 10px;margin-bottom: 2px;margin-left: 0px;margin-right: 0px;}
 
-.form_button_add {border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-style: solid; border-left-color: #f3f3f3; border-top-color: #f3f3f3; border-right-color: #000000; border-bottom-color: #000000; background-color: #f3f3f3; background-repeat: no-repeat; background-position: left center; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 12px; text-transform: uppercase; font-weight: bold; width: 30px; height: 23px; margin-top: 0px; margin-bottom: 2px; margin-left: 5px; margin-right: 0px; }
+.form_button_add {border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-style: solid; border-left-color: #f3f3f3; border-top-color: #f3f3f3; border-right-color: #000000; border-bottom-color: #000000; background-color: #f3f3f3; background-repeat: no-repeat; background-position: left center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-transform: uppercase; font-weight: bold; width: 30px; height: 23px; margin-top: 0px; margin-bottom: 2px; margin-left: 5px; margin-right: 0px; }
 .form_button_cell {border-left-width: 0px; border-right-width: 0px; border-top-width: 1px; border-bottom-width: 0px; border-style: dotted; border-left-color: #555555; border-top-color: #a2a2b6; border-right-color: #a2a2b6; border-bottom-color: #a2a2b6; background-color: #ffffff; }
 .form_text_xsmall {font-size:13px; padding-top: 0px; padding-left: 4px; padding-right: 0px; padding-bottom: 0px; margin-top: 0px; margin-left: 0px; margin-right: 16px; margin-bottom: 0px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-style: solid; border-left-color: #000000; border-top-color: #000000; border-right-color: #f3f3f3; border-bottom-color: #f3f3f3; background-color: #f3f3f3; width: 160px; height: 22px; }
 
@@ -2981,23 +2977,23 @@ display: block;
 
 .form_text_long{font-size:15px; padding-top: 4px; padding-left: 4px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-style: solid; border-left-color: #e6e1af; border-top-color: #e6e1af; border-right-color: #f2f0d6; border-bottom-color: #f2f0d6; background-color: #f2f0d6; width: 676px; height: 25px; }
 
-#form_cell h2{font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size:12px; line-height: 16px; text-transform: uppercase; color: #555555; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 5px; margin-right: 0px; }
+#form_cell h2{font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height: 16px; text-transform: uppercase; color: #555555; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 5px; margin-right: 0px; }
 
-#form_cell h6{font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 10px; line-height: 10px; color: #ff0000; font-weight: normal; margin-top: 2px; margin-bottom: 0px; margin-left: 5px; margin-right: 0px; }
+#form_cell h6{font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 10px; color: #ff0000; font-weight: normal; margin-top: 2px; margin-bottom: 0px; margin-left: 5px; margin-right: 0px; }
 
-#form_cell p{font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #555555; font-weight: normal; margin-top: 7px; margin-bottom: 13px; margin-left: 0px; margin-right: 0px; }
+#form_cell p{font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #555555; font-weight: normal; margin-top: 7px; margin-bottom: 13px; margin-left: 0px; margin-right: 0px; }
 
-#search_actions p{font-family: 'TrasandinaRegular', Helvetica, sans-serif;font-size: 15px;line-height: 25px;color: #555555;font-weight: normal;margin-top: 25px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;}
+#search_actions p{font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 25px;color: #555555;font-weight: normal;margin-top: 25px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;}
 
-#search_actions h6{font-family: 'TrasandinaRegular', Helvetica, sans-serif;font-size: 14px;line-height: 14px;color: #555555;font-weight: normal;margin-top: 10px;margin-bottom: 10px;margin-left: 0px;margin-right: 0px;}
+#search_actions h6{font-family: Arial, Helvetica, sans-serif;font-size: 14px;line-height: 14px;color: #555555;font-weight: normal;margin-top: 10px;margin-bottom: 10px;margin-left: 0px;margin-right: 0px;}
 
-#search_actions a{font-family: 'TrasandinaRegular', Helvetica, sans-serif;font-size: 14px;line-height: 14px;color: #00457C;font-weight: normal;margin-top: 10px;margin-bottom: 10px;margin-left: 0px;margin-right: 0px;}
+#search_actions a{font-family: Arial, Helvetica, sans-serif;font-size: 14px;line-height: 14px;color: #00457C;font-weight: normal;margin-top: 10px;margin-bottom: 10px;margin-left: 0px;margin-right: 0px;}
 #search_actions a:link    { text-decoration: none; font-style: bold; font-weight: bold; }
 #search_actions a:visited { text-decoration: none; font-style: bold; font-weight: bold; }
 #search_actions a:active  { text-decoration: none; font-style: bold; font-weight: bold; }
 #search_actions a:hover   { text-decoration: underline; font-style: bold; font-weight: bold; }
-.stagenav { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 12px; line-height: 12px; color: #7070707; padding-top: 0px; padding-bottom: 4px; padding-right: 0px; padding-left: 0px; }
-.searchbox_label { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 12px; line-height: 12px; color: #4b4b4b; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 2px;  }
+.stagenav { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; color: #7070707; padding-top: 0px; padding-bottom: 4px; padding-right: 0px; padding-left: 0px; }
+.searchbox_label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; color: #4b4b4b; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 2px;  }
 
 .searchbox_selectbox { border-style: solid; border-left-color: #000000; border-right-color: #c7c7c7; border-top-color: #000000; border-bottom-color: #c7c7c7; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 0px; padding-right: 0px; padding-top: 10px;    padding-bottom: 8px;text-align: left; width: 130px; margin-right: 16px;}
 
@@ -3017,7 +3013,7 @@ display: block;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 0 30px;
     vertical-align: middle;
     height: 37px;
@@ -3030,7 +3026,7 @@ display: block;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     vertical-align: middle;
     height: 25px;
     text-align: center;
@@ -3042,7 +3038,7 @@ display: block;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 0 30px;
     vertical-align: middle;
     height: 37px;
@@ -3056,17 +3052,17 @@ display: block;
     border-radius: 0 !important;
     border: 0 !important;
     font-weight: normal;
-    font-family: 'TrasandinaRegular',sans-serif;
+    font-family: Arial,sans-serif;
     padding: 0 30px;
     vertical-align: middle;
     height: 45px;margin-top: 30px;    margin-right: 15px;}
 
-.complete_order_action_button { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 15px; color: #FFFFFF; background: #ff0000; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 0px;}
-.searchbox_results_header { border-style: solid; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #ffffff; background-color: #012369;}
-.searchbox_results_header a { border-style: none; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #ffffff; background-color: #012369;}
-.searchbox_results_header a:link { border-style: none; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #ffffff; background-color: #012369; text-decoration:none; }
+.complete_order_action_button { font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #FFFFFF; background: #ff0000; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 0px;}
+.searchbox_results_header { border-style: solid; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #ffffff; background-color: #012369;}
+.searchbox_results_header a { border-style: none; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #ffffff; background-color: #012369;}
+.searchbox_results_header a:link { border-style: none; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #ffffff; background-color: #012369; text-decoration:none; }
 
-.searchbox_results_header_active { border-style: solid; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 18px; color: #ffffff; background-color: #00335b;}
+.searchbox_results_header_active { border-style: solid; border-left-color: #5c5c5c; border-right-color: #9e9e9e; border-top-color: #9e9e9e; border-bottom-color: #5c5c5c; border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 2px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 18px; color: #ffffff; background-color: #00335b;}
 .searchbox_results_header img {display: none;}
 
 .tr_searchbox_results_line_item { background-color: #ffffff !important; }
@@ -3074,16 +3070,16 @@ display: block;
 
 .tr_searchbox_results_line_item td, .tr_searchbox_results_line_item2 td { background-color: transparent !important; }
 
-.searchbox_results_line_item { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 14px; padding-right: 6px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #707070; background-color: #ffffff;}
+.searchbox_results_line_item { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 14px; padding-right: 6px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #707070; background-color: #ffffff;}
 
-.searchbox_results_line_item2 { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 14px; padding-right: 6px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #707070; background-color: #dddddd;}
+.searchbox_results_line_item2 { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 14px; padding-right: 6px; padding-top: 12px; padding-bottom: 12px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px !important; color: #707070; background-color: #dddddd;}
 
-.searchbox_results_line_itemb { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 2px; text-align: center; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; background-color: #ffffff;}
+.searchbox_results_line_itemb { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 2px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; background-color: #ffffff;}
 
-.searchbox_results_line_item2b { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 2px; text-align: center; font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; background-color: #dddddd;}
+.searchbox_results_line_item2b { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #ffffff; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 2px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; background-color: #dddddd;}
 .boxrp { border-style: solid; border-left-color: #ffffff; border-right-color: #ffffff; border-top-color: #707070; border-bottom-color: #707070; border-left-width: 0px; border-right-width: 0px; border-top-width: 1px; border-bottom-width: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;background:#eaeaea;}
 
-#boxrp p {  font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 15px; line-height: 30px; color: #707070;  margin-top: 2px; margin-bottom: 2px; margin-left: 15px; margin-right: 10px;}
+#boxrp p {  font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 30px; color: #707070;  margin-top: 2px; margin-bottom: 2px; margin-left: 15px; margin-right: 10px;}
 
 
 #boxrp a         { text-decoration: none; font-style: normal; font-weight: normal; background-color: transparent; color: #707070; }
@@ -3092,7 +3088,7 @@ display: block;
 #boxrp a:active  { text-decoration: none; font-style: normal; font-weight: normal; background-color: transparent; color: #707070;}
 #boxrp a:hover   { text-decoration: underline; font-style: normal; font-weight: normal; background-color: transparent; color: #707070;}
 
-.form_button_action { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 14px; color: #ffffff; background: #515151; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px; margin-left: 5px; margin-right: 5px; margin-top: 15px; margin-bottom: 0px; }
+.form_button_action { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; background: #515151; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px; margin-left: 5px; margin-right: 5px; margin-top: 15px; margin-bottom: 0px; }
 .form_container { background-color: #f4f4f4; border-width: 0px; border-style: solid; border-left-color: #000000; border-right-color: #000000; border-top-color: #000000; border-bottom-color: #ffffff; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;   margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
 
 .form_label { border-style: solid; border-left-color: #000000; border-right-color: #000000; border-top-color: #000000; border-bottom-color: #ffffff; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;   margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
@@ -3131,30 +3127,30 @@ display: block;
 
 .form_fieldset { background-color: transparent; border-width: 1px; border-style: solid; border-color: #707070; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;     font-size: 16px;}
 
-.form_legend { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #707070; font-weight: bold; margin-top: 10px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;   }
+.form_legend { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #707070; font-weight: bold; margin-top: 10px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;   }
 
-.form_button { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; color: #707070; background: #eeeeee; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px;  margin-left: 0px; margin-right: 0px; margin-top: 10px; margin-bottom: 0px; }
+.form_button { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #707070; background: #eeeeee; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px;  margin-left: 0px; margin-right: 0px; margin-top: 10px; margin-bottom: 0px; }
 
-.form_button_submit { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 14px; color: #707070; background: #eeeeee; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px; margin-left: 5px; margin-right: 5px; margin-top: 15px; margin-bottom: 0px; }
+.form_button_submit { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #707070; background: #eeeeee; border-style: solid; border-left-color: #eeeeee; border-right-color: #000000; border-top-color: #eeeeee; border-bottom-color: #000000; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 3px; padding-bottom: 3px; margin-left: 5px; margin-right: 5px; margin-top: 15px; margin-bottom: 0px; }
 
 .form_hr { color: 707070; margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px; height: 1px; border-style: solid; }
 
 .form_image { border-style: solid; border-left-color: #000000; border-right-color: #c7c7c7; border-top-color: #000000; border-bottom-color: #c7c7c7; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; text-align: left; }
-#form h1 { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 14px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 6px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#form h1 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 6px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
 
-#form h2 { color: #000000;font-size: 18px;font-weight: normal;line-height: 43px;font-family: 'TrasandinaRegular', Helvetica, sans-serif; margin-top: 10px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#form h2 { color: #000000;font-size: 18px;font-weight: normal;line-height: 43px;font-family: Arial, Helvetica, sans-serif; margin-top: 10px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
 
-#form h3 { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 11px; line-height: 18px; color: #810000; font-weight: normal; margin-top: 6px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#form h3 { font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 18px; color: #810000; font-weight: normal; margin-top: 6px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
 
-#form h4 { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; font-weight: bold; margin-top: 16px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; text-transform: uppercase; }
-
-
-#form h5 { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 6px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; }
-
-#form h6 { font-family: 'TrasandinaRegular', Helvetica, sans-serif; font-size: 11px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 15px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#form h4 { font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #707070; font-weight: bold; margin-top: 16px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; text-transform: uppercase; }
 
 
-#form p { font-family: 'TrasandinaRegular', Helvetica, sans-serif;    font-size: 16px;line-height: 16px;color: #000; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#form h5 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 6px; margin-bottom: 8px; margin-left: 0px; margin-right: 0px; }
+
+#form h6 { font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 18px; color: #707070; font-weight: normal; margin-top: 15px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+
+
+#form p { font-family: Arial, Helvetica, sans-serif;    font-size: 16px;line-height: 16px;color: #000; font-weight: normal; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
 
 #form a         { text-decoration: none; font-style: normal; font-weight: normal; background-color: transparent; color: #00457C; }
 #form a:link    { text-decoration: none; font-style: normal; font-weight: normal; background-color: transparent; color: #00457C; }
@@ -3391,7 +3387,7 @@ border-left-color: #000000;
     text-align: left;
     border: 1px solid #959595;
     padding: 40px 30px;
-    font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .advisor_content .advisor_feature select.group_selection option {
     margin-bottom: 10px;
@@ -3399,7 +3395,7 @@ border-left-color: #000000;
 }
 
 input.wpcf7-form-control.wpcf7-text, select.wpcf7-form-control.wpcf7-select {
-    font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
     border: 1px solid #959595;
 }
@@ -3447,7 +3443,7 @@ text-transform: uppercase;
 
 .email_message_snippet .email_content h1
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 23px;
 				line-height: 24px;
 				color: #0b2369 !important;
@@ -3461,7 +3457,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content h2
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 17px;
 				line-height: 20px;
 				color: #000000 !important;
@@ -3478,7 +3474,7 @@ text-transform: uppercase;
 				font-style: normal;
 				font-weight: normal;
 				background-color: transparent;
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #012369;
@@ -3525,7 +3521,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content p
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #000000;
@@ -3538,7 +3534,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content p.signiture
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #666666;
@@ -3551,7 +3547,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content h6
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 12px;
 				line-height: 15px;
 				color: #666666;
@@ -3564,7 +3560,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content ul
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #505050;
@@ -3574,7 +3570,7 @@ text-transform: uppercase;
 				list-style-type: disc;
 				}
 
-				.email_message_snippet .email_content ol     { font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				.email_message_snippet .email_content ol     { font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #000000;
@@ -3585,7 +3581,7 @@ text-transform: uppercase;
 
 				.email_message_snippet .email_content li
 				{
-				font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 15px;
 				line-height: 22px;
 				color: #000000;
@@ -3707,7 +3703,7 @@ height: 200px;
     text-align: left;
     width: 100%;
     font-size: 16px;
-    font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.breadcrumb_nav {
@@ -3772,7 +3768,7 @@ div.breadcrumb_nav div.breadcrumb_number {
 
     color: #fff;
 
-    font-family: 'Plantin Std', Helvetica, sans-serif;
+    font-family: FUTURA_1_BOLD, Helvetica, sans-serif;
 
     font-weight: normal;
 
@@ -3796,9 +3792,9 @@ vertical-align: middle;
 
 	margin-left:20px;
 
-		font-family: 'Plantin Std', Helvetica, sans-serif;
+		font-family: FUTURA_1, Helvetica, sans-serif;
 
-	text-transform: none;
+	text-transform: uppercase;
 
 }
 
@@ -3810,9 +3806,9 @@ line-height: 58px;
 
 font-size: 53px;
 
-	font-family: 'Plantin Std', Helvetica, sans-serif;
+	font-family: FUTURA_1, Helvetica, sans-serif;
 
-	text-transform: none;
+	text-transform: uppercase;
 
 }
 
@@ -3860,9 +3856,9 @@ div.breadcrumb_nav div.breadcrumb_selector ul li {
 
     color: #a4a4a4;
 
-    font-family: 'Plantin Std', Helvetica, sans-serif;
+    font-family: FUTURA_1, Helvetica, sans-serif;
 
-    text-transform: none;
+    text-transform: uppercase;
 
     font-size: 24px;
 
@@ -3878,7 +3874,7 @@ div.breadcrumb_nav div.breadcrumb_selector ul.not_dropdown li {
 
     color: #000;
 
-    font-family: 'TrasandinaRegular', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
     text-transform: none;
 
@@ -3908,9 +3904,9 @@ div.breadcrumb_nav div.breadcrumb_selector ul li a {
 
 	color: #a4a4a4;
 
-	font-family: 'Plantin Std', Helvetica, sans-serif;
+	font-family: FUTURA_1, Helvetica, sans-serif;
 
-	text-transform: none;
+	text-transform: uppercase;
 
 	    font-size: 24px;
 
@@ -3952,9 +3948,9 @@ div.breadcrumb_nav div.breadcrumb_selector ul li img {
 
 
 .page_title {
-    text-transform: none;
+    text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Plantin Std', Helvetica, sans-serif;
+    font-family: FUTURA_1, Helvetica, sans-serif;
     font-size: 37px;
     line-height: 90px;
 	margin: 0;
@@ -3995,7 +3991,7 @@ html#economic_calendar #floating_account_section {
   width: 100%;
   height: auto;
   background: #000000;
-  margin: 0 0 10px 0;
+  margin: 0 0 35px 0;
   position: relative;
 }
 #app_banner > img {
@@ -4041,11 +4037,11 @@ text-align: left;
   display: inline-block;
 }
 #app_title h1 {
-color: #00aeef;
+color: #ccdc5b;
 line-height: 60px;
 font-size: 60px;
-font-family: 'Plantin Std', Helvetica, sans-serif;
-text-transform: none;
+font-family: FUTURA_1, Helvetica, sans-serif;
+text-transform: uppercase;
 display: inline-block;
 margin: 0;
 }
@@ -4053,7 +4049,6 @@ margin: 0;
 #data_table {
   width: 100%;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
 }
 #data_table tr.row1 {
   background-color: #1a1a1a;
@@ -4062,10 +4057,10 @@ margin: 0;
   background-color: #262626;
 }
 #data_table th {
-  background-color: #020f50;
+  background-color: #005674;
   height: 77px;
-  border-top: 1px solid #00aeef;
-  border-bottom: 1px solid #00aeef;
+  border-top: 1px solid #7fd5f3;
+  border-bottom: 1px solid #7fd5f3;
   text-align: left;
   vertical-align: middle;
   padding:0 25px;
@@ -4081,8 +4076,8 @@ display: inline-block;
   color: #ffffff;
   line-height: 38px;
   font-size: 38px;
-  font-family: 'Plantin Std', Helvetica, sans-serif;
-  text-transform: none;
+  font-family: FUTURA_1, Helvetica, sans-serif;
+  text-transform: uppercase;
   display: inline-block;
   margin: 0 50px 0 0;
   vertical-align: top;
@@ -4153,7 +4148,7 @@ text-transform: uppercase;
   color:#ffffff;
 }
 #data_table tr.row_content h2 a {
-  color:#00aeef;
+  color:#ccdc5b;
 }
 #data_table tr.row_content h3 {
   color:#ffffff;
@@ -4284,12 +4279,12 @@ border-bottom: 1px solid #808080;
   pointer-events: none;
 }
 #location_table tr.row_content h2 {
-  color:#00aeef;
+  color:#ccdc5b;
   font-size: 60px;
   line-height: 65px;
   margin-bottom: 0px;
-  font-family: 'Plantin Std', Helvetica, sans-serif;
-  text-transform: none;
+  font-family: FUTURA_1, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 #location_table tr.row_content p {
 color:#ffffff;
@@ -4312,7 +4307,7 @@ float: left;
 margin-left: -50px;
 }
 .highlighted {
-color:#00aeef !important;
+color:#ccdc5b !important;
 font-weight: bold;
 }
 .hours {
@@ -4331,7 +4326,7 @@ color: #3b3b3b !important;
   width:100%;
   padding: 0;
   margin: 0;
-  background-color: #020f50;
+  background-color: #002b3a;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -4360,7 +4355,7 @@ color: #3b3b3b !important;
   text-transform: uppercase;
 }
 #app_footer .footer_section a {
-color: #ffffff;
+color: #00ace7;
 }
 .show_on_mobile {
   display: none !important;
