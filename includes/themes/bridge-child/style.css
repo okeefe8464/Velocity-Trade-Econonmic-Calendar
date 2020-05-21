@@ -4384,8 +4384,8 @@ color: #ffffff;
     margin: 0 23px 0 10px;
   }
   #app_title h1 {
-    line-height: 30px;
-    font-size: 30px;
+    line-height: 34px;
+    font-size: 24px;
   }
   #data_table tr.row_content td {
     padding: 27px 25px 30px 25px;
@@ -4414,7 +4414,7 @@ color: #ffffff;
   }
   #data_table th p {
     line-height: 28px;
-    font-size: 22px;
+    font-size: 18px;
     margin: 0 15px 0 0;
   }
   #data_table th p:last-child {
@@ -4476,7 +4476,7 @@ color: #ffffff;
       color: #fff;
   }
   #location_table tr.row_content h2 {
-    font-size: 30px;
+    font-size: 23px;
     line-height: 35px;
   }
   #data_table td p.data_value img:not(.icon_change) {
@@ -4545,7 +4545,7 @@ color: #ffffff;
 
 @media only screen and (max-width: 650px) {
   #location_table tr.row_content h2#region_selector {
-    font-size: 25px;
+    font-size: 23px;
   }
   .icon_region {
     max-height: 12px;
