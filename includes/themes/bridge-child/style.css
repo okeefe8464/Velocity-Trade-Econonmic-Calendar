@@ -4422,7 +4422,7 @@ color: #ffffff;
   }
   #data_table th p select {
     padding: 4px 0 3px 0;
-    width: 120px;
+    width: 100px;
     margin-right: 0;
   }
   #data_table tr.row_content h1 {
