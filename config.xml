@@ -11,10 +11,10 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="deployment-target" value="8.0" />
-    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
-    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~2.0.3" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~2.0.2" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~2.0.2" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.3.4" />
     <plugin name="cordova-plugin-geolocation" version="4.0.2" />
     <icon src="images/favicon.png" />
     <gap:splash src="images/favicon.png" />
