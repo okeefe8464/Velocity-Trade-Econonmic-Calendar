@@ -12,6 +12,11 @@
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="deployment-target" value="8.0" />
     <preference name="phonegap-version" value="cli-7.1.0" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-geolocation" version="4.0.2" />
     <icon src="images/favicon.png"  width="1024" height="1024" />
     <gap:splash src="images/favicon.png" />
 <!--
@@ -26,7 +31,6 @@
 	<string>need location to determine default search parameters</string>
 </edit-config>
 -->
-<!--
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
@@ -47,7 +51,6 @@
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
--->
     <platform name="ios">
         <icon height="1024" platform="ios" src="images/favicon-1024.png" width="1024" />
         <icon height="120" platform="ios" src="images/favicon-120.png" width="120" />
