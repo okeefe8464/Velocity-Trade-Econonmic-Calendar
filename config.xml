@@ -11,12 +11,11 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="deployment-target" value="8.0" />
-    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <plugin name="cordova-plugin-geolocation" version="4.0.2" />
     <icon src="images/favicon.png"  width="1024" height="1024" />
     <gap:splash src="images/favicon.png" />
 <!--
