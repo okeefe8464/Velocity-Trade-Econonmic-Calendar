@@ -36,6 +36,8 @@
 	<script type="text/javascript" src="includes/ckeditor/adapters/jquery.js"></script>
 	<script type="text/javascript" src="includes/stylesheetparser/plugin.js"></script>
 	<script type="text/javascript" src="includes/jstimezonedetect/dist/jstz.min.js"></script>
+	<!-- jQuery Pull to Refresh plugin -->
+	<script src='includes/jquery-p2r-master/jquery.p2r.min.js' type='text/javascript' defer></script>
 	<script>
 	function toggle_menu ( sub_menu ) {
 		jQuery( '#sub_' + sub_menu ).toggle();
@@ -54,6 +56,7 @@
 
 <body class="page page-id-17441 page-template-default logged-in  qode-title-hidden side_menu_slide_from_right qode-child-theme-ver-1.0.0 qode-theme-ver-7.5 wpb-js-composer js-comp-ver-4.5.3 vc_responsive">
 <div class="ajax_loader"><div class="ajax_loader_1"><div class="stripes"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div></div>
+<input id="current_page_location" name="current_page_location" value="" hidden>	
 <section id="side_menu" class="side_menu right light side_area_alignment_left" tabindex="5000" style="overflow-y: hidden; outline: none;    overflow-y: auto;">
 	<a href="#"  onclick="jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%');return false;" target="_self" class="close_side_menu"></a>
 	<div id="nav_menu-5" class="widget widget_nav_menu posts_holder">
@@ -138,6 +141,7 @@
 						$( "#content_loading" ).hide();
 						$( "#content_mobile" ).show();
 					});
+					$( "#current_page_location" ).val(url);
 				}
 				load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_global_offices&mobile=1');				
 				
@@ -159,5 +163,14 @@
 			</script>
 		</div>
 	</div>
+<script>
+$(document).ready(function (){
+    $("#content_mobile").pullToRefresh();
+	$("#content_mobile").on("end.pulltorefresh", function (evt){
+		var current_page_location = $("#current_page_location").val();
+		load_content(current_page_location);
+	})
+})
+</script>
 </body>
 </html>

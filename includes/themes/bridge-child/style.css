@@ -4365,7 +4365,16 @@ color: #ffffff;
 .show_on_mobile {
   display: none !important;
 }
-
+@media only screen and (max-width: 850px) { 
+  #data_table td p.data_value {
+  font-size: 11px;
+  line-height: 11px;
+  }
+  #data_table td p.data_lable {
+  font-size: 8px;
+  line-height: 8px;
+  }
+}
 @media only screen and (max-width: 801px) {
   .hide_on_mobile {
     display: none !important;
@@ -4457,8 +4466,8 @@ color: #ffffff;
     line-height: 22px;
   }
   #data_table td p.data_value {
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 10px;
+  line-height: 10px;
   }
   #data_table td p.data_lable {
   font-size: 8px;
