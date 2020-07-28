@@ -10,7 +10,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-targetSdkVersion" value="29" />
-    <preference name="deployment-target" value="10.0" />
+    <preference name="deployment-target" value="13.0" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
