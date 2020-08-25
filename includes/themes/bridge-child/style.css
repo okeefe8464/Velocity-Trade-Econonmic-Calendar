@@ -420,11 +420,11 @@ padding-left: 0;
 .side_menu_button>a.side_menu_button_link.medium {
     display: inline;
     font-weight: normal;
-    font-size: 52px !important;
+    font-size: 39px !important;
     letter-spacing: 1px;
 margin-top:3px;
 color: #ffffff !important;
-    line-height: 52px;
+    line-height: 39px;
     padding: 0 0px 0 0;
 vertical-align:middle;
 }
@@ -4070,6 +4070,9 @@ margin: 0;
   vertical-align: middle;
   padding:0 25px;
 }
+#data_table th.shorter { 
+    height: 50px;
+}
 #data_table th img {
 margin: 0 7px 0 0;
 display: inline-block;
@@ -4079,9 +4082,9 @@ display: inline-block;
 }
 #data_table th p {
   color: #ffffff;
-  line-height: 38px;
-  font-size: 38px;
-  font-family: 'Plantin Std', Helvetica, sans-serif;
+  line-height: 24px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: none;
   display: inline-block;
   margin: 0 50px 0 0;
@@ -4421,9 +4424,12 @@ color: #ffffff;
   #data_table th img:last-child {
     margin-top: 5px;
   }
+  #data_table th.shorter {
+      height: 18px;
+  }
   #data_table th p {
-    line-height: 28px;
-    font-size: 16px;
+    line-height: 18px;
+    font-size: 10px;
     margin: 0 15px 0 0;
   }
   #data_table th p:last-child {
